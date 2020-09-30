@@ -10,5 +10,6 @@ public class IOCDemo {
         IOCService iocService=context.getBean(IOCService.class);
         System.out.println(iocService.hello());
         System.out.println(iocService.hello()+" i want to go to firstBranch");
+        System.out.println("just i want to learn how to use git ");
     }
 }
