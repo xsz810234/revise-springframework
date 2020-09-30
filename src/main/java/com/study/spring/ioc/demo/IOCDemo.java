@@ -10,5 +10,6 @@ public class IOCDemo {
         IOCService iocService=context.getBean(IOCService.class);
         System.out.println(iocService.hello());
         System.out.println("i want stay with tzr");
+        System.out.println("me too");
     }
 }
