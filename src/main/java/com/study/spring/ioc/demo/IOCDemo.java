@@ -9,7 +9,6 @@ public class IOCDemo {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application-ioc.xml");
         IOCService iocService=context.getBean(IOCService.class);
         System.out.println(iocService.hello());
-        System.out.println(iocService.hello()+" i want to go to firstBranch");
-        System.out.println("just i want to learn how to use git ");
+        System.out.println("i want stay with tzr");
     }
 }
