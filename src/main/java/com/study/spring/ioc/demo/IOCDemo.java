@@ -11,5 +11,6 @@ public class IOCDemo {
         System.out.println(iocService.hello());
         System.out.println("i want stay with tzr");
         System.out.println("me too");
+        System.out.println("me three");
     }
 }
