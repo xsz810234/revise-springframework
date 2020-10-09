@@ -9,6 +9,5 @@ public class IOCDemo {
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application-ioc.xml");
         IOCService iocService=context.getBean(IOCService.class);
         System.out.println(iocService.hello());
-        System.out.println("test");
     }
 }
