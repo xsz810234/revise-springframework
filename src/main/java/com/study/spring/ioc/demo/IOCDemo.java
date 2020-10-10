@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class IOCDemo {
     public static void main (String args[]){
         ApplicationContext context = new ClassPathXmlApplicationContext("classpath:application-ioc.xml");
-        IOCService iocService=context.getBean(IOCService.class);
+        IOCService iocService=(IOCService)context.getBean("iocservice");
         System.out.println(iocService.hello());
     }
 }
